@@ -11,6 +11,7 @@ int main()
         j = 28;
         z = i + j;
         write(1, &z, 1);
+        write(1, "\n", 1);
         printf("%c\n",z);
         return (0);
     }
